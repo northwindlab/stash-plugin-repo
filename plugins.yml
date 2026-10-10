@@ -1,0 +1,9 @@
+# The plugins of this source. `id` is the plugin's folder name in Stash; name and version are read from the plugin's own <id>.yml at build time.
+- id: stash-plugin-menu
+  description: One icon in Stash's top bar (next to Statistics) with a drop-down of your plugin pages -- instead of one top-bar entry per plugin. No server needed.
+  url: https://github.com/northwindlab/stash-plugin-menu
+  tags: [ui, navigation]
+- id: stash-release-manager
+  description: Tracks new releases of the performers and studios you follow, searches your indexers, hands the downloads to your download client and files them into your library. Needs the StashReleaseManager sidecar (a Docker container) -- see INSTALL.md in the project.
+  url: https://github.com/northwindlab/stash-release-manager
+  tags: [releases, automation]

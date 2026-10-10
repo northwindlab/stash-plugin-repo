@@ -1,0 +1,31 @@
+- id: stash-plugin-menu
+  name: Plugin Menu
+  version: 0.1.2
+  date: '2026-10-10 18:40:23'
+  path: releases/stash-plugin-menu-0.1.2.zip
+  sha256: bb836e5278d2e40e1a40ffbc8d5c808eedafd73d0205d140d69e6a701fd68e56
+  requires: []
+  metadata:
+    description: One icon in Stash's top bar (next to Statistics) with a drop-down of your plugin pages
+      -- instead of one top-bar entry per plugin. No server needed.
+    url: https://github.com/northwindlab/stash-plugin-menu
+    tags:
+    - ui
+    - navigation
+    author: northwindlab
+- id: stash-release-manager
+  name: StashReleaseManager
+  version: 0.185.0
+  date: '2026-10-10 18:40:23'
+  path: releases/stash-release-manager-0.185.0.zip
+  sha256: 22bbf41fd8e93d4cd4eeecec0ee55301103e99c4116befc7a7028fa23b15b947
+  requires: []
+  metadata:
+    description: Tracks new releases of the performers and studios you follow, searches your indexers,
+      hands the downloads to your download client and files them into your library. Needs the StashReleaseManager
+      sidecar (a Docker container) -- see INSTALL.md in the project.
+    url: https://github.com/northwindlab/stash-release-manager
+    tags:
+    - releases
+    - automation
+    author: northwindlab
