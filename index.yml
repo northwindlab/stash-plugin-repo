@@ -1,9 +1,9 @@
 - id: stash-plugin-menu
   name: Plugin Menu
-  version: 0.3.1
-  date: '2026-10-19 18:03:46'
-  path: releases/stash-plugin-menu-0.3.1.zip
-  sha256: 256d778d4756b546a1bb34cbb9fa5868ce68183f87345af60b734677a9e159b2
+  version: 0.4.0
+  date: '2026-10-19 19:07:45'
+  path: releases/stash-plugin-menu-0.4.0.zip
+  sha256: 2eee070aa7bd8f59e48603fef8f2aaf8ac07e3779d8310156285451a33c27a9a
   requires: []
   metadata:
     description: One icon in Stash's top bar (next to Statistics) with a drop-down of your plugin pages
