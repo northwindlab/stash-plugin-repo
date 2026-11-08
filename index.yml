@@ -15,10 +15,10 @@
     author: northwindlab
 - id: stash-release-manager
   name: StashReleaseManager
-  version: 0.253.11
-  date: '2026-11-08 18:10:59'
-  path: releases/stash-release-manager-0.253.11.zip
-  sha256: b7516af42341795211ab82ed7c35d51d4d0c980bfa2abff375f9b8ad2ca8b06b
+  version: 0.253.12
+  date: '2026-11-08 18:18:49'
+  path: releases/stash-release-manager-0.253.12.zip
+  sha256: 095aa3d6e8da53f1e79b58bd243b5ddced2c8f9d150b17b96f1228fa6406724d
   requires: []
   metadata:
     description: Tracks new releases of the performers and studios you follow, searches your indexers,
