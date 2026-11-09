@@ -21,6 +21,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 AUTHOR = "northwindlab"
 MAX_KEEP = 3
 PATTERNS = ("*.yml", "*.js", "*.css", "*.py")
+ASSET_PATTERNS = ("icons/*.svg", "icons/*.png", "icons/*.webmanifest")  # the folder the plugin yml serves as /icons (ui.assets)
 FIXED_TIME = (2020, 1, 1, 0, 0, 0)
 
 
@@ -30,7 +31,8 @@ def load(path):
 
 
 def make_zip(folder, dest):
-    names = sorted({os.path.basename(p) for pat in PATTERNS for p in glob.glob(os.path.join(folder, pat))})
+    names = sorted({os.path.basename(p) for pat in PATTERNS for p in glob.glob(os.path.join(folder, pat))}
+                   | {os.path.relpath(p, folder) for pat in ASSET_PATTERNS for p in glob.glob(os.path.join(folder, pat))})
     if not names:
         raise SystemExit(f"nothing to pack in {folder}")
     with zipfile.ZipFile(dest, "w", zipfile.ZIP_DEFLATED) as z:
